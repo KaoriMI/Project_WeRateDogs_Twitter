@@ -30,6 +30,29 @@ Key points to keep in mind when data wrangling for this project:
 
 quality
 
+******
+
+
+Dtype:
+ - timestamp is not time series data.
+ - each dog stage is not boolean.
+ - ID related column is either int64 or float 64. This should be string.
+
+
+remove- retweet/reply and include the table
+denomitor > 10
+denomitor == 0
+
+include floof in floofer
+
+dog_name = 1, 0 , this, lower case etc..
+
+image prediction= delete 
+image prediction id to object
+tweet
+
+
+*******
 
 in
 
@@ -44,3 +67,28 @@ tidiness
  object -> time
 
  -
+*********
+#### Quality issues 
+##### ◆Twitter archive data
+&nbsp;-Data type to be changed: <br>
+>&nbsp;Timestamp (->time series data)<br>
+&nbsp;Dog stage (-> Boolean)<br>
+&nbsp;ID's (-> string/object)<br>
+
+&nbsp;-Some denominators are incorrect.<br>
+&nbsp;-"Floof" is not included in floofer stage.<br>
+&nbsp;-Some dog names are incorrect.<br> 
+##### ◆Image prediction
+&nbsp;-Some predisctions are not a dog.<br>
+&nbsp;-Tweet ID is not string/object.<br>
+&nbsp;-Some data are missing.<br>
+<br>
+#### Tidiness issues
+##### ◆Twitter archive data
+&nbsp;-Text column includes URL of the tweets.<br>
+&nbsp;-Retweets / replies are included.<br>
+&nbsp;-The number of retweet / reply is in a separate dataframe.<br>
+**
+define
+code
+test
