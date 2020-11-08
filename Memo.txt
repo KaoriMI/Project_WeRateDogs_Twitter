@@ -33,13 +33,13 @@ quality
 ******
 
 
-Dtype:
+done>Dtype:
  - timestamp is not time series data.
  - each dog stage is not boolean.
  - ID related column is either int64 or float 64. This should be string.
 
 
-remove- retweet/reply and include the table
+done>remove- retweet/reply and include the table
 denomitor > 10
 denomitor == 0
 
