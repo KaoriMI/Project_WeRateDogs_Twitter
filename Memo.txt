@@ -1,3 +1,27 @@
+
+<Data>
+-Enhanced twitter archive
+-Additional data via the twitter API (retweet count, favorite count)
+-Image predictions file
+
+
+<suspecious>
+-name
+-stage
+-rating
+-dont count retweets
+
+<to do>
+-Data wrangling, 
+    Gathering data (downloadable file in the Resources tab in the left most panel of your classroom and linked in step 1 below).
+    Assessing data
+    Cleaning data (8 quality issues and 2 tidiness issues (tidiness -merging data is included))
+-Storing, analyzing, and visualizing your wrangled data
+-Reporting on 1) your data wrangling efforts and 2) your data analyses and visualizations
+
+
+
+
 Your goal
 wrangle WeRateDogs Twitter data to create interesting and trustworthy analyses and visualizations. 
 
