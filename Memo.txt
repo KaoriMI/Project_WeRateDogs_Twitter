@@ -12,12 +12,15 @@
 -dont count retweets
 
 <to do>
--Data wrangling, 
-    Gathering data (downloadable file in the Resources tab in the left most panel of your classroom and linked in step 1 below).
-    Assessing data
-    Cleaning data (8 quality issues and 2 tidiness issues (tidiness -merging data is included))
--Storing, analyzing, and visualizing your wrangled data
+-Data wrangling(wrangle_act.ipynb)
+    Gathering data(tweet_json.txt for downloading tweet)
+    Assessing data(8 quality issues and 2 tidiness issues (tidiness -merging data is included))
+    Cleaning data 
+-Storing(save csv as twitter_archive_master.csv)
+-analyzing, and visualizing (inside of wrangle_act.ipynb, 3insights and 1 visualization)
 -Reporting on 1) your data wrangling efforts and 2) your data analyses and visualizations
+  ->300-600, called wrangle_report.pdf or wrangle_report.html that briefly describes your wrangling efforts. This is to be framed as an internal document.
+  ->250-word-minimum written report called act_report.pdf or act_report.html that communicates the insights and displays the visualization(s) produced from your wrangled data. This is to be framed as an external document, like a blog post or magazine article, for example.
 
 
 
