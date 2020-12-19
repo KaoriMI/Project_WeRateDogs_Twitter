@@ -1,4 +1,29 @@
+****
+# twitter authentication 
+import tweepy
 
+consumer_key = 'TT2D0E2aIX0VEMNDs1ZdRll7W'
+consumer_secret = '7Qv623gWuw4H8gvIWtHJ4ZB8gw6kz6cRdllGP8bzYIAKxYTDHU'
+access_token = '1322275579496927233-6yA5Xz158culvlLTkTJND36bdSIsJR'
+access_secret = 'fHqvXqAhZVMGovtvXF6AoSK2tuoDul5bIrNCoYDADjrkJ'
+******
+
+
+
+# Code : 2
+dog_stage = ['doggo','floofer', 'pupper', 'puppo']
+
+for stage in dog_stage:
+    df_clean[stage] = df_clean[stage].str.contains(stage).astype(int)
+    
+    
+# test : 2 
+for stage in dog_stage:
+    print((df_clean[stage] == (df_tw[(pd.isnull(df_tw['in_reply_to_status_id'])) & (pd.isnull(df_tw['retweeted_status_id']))].reset_index(drop=True)[stage] == stage)).unique())
+    
+    
+    
+    
 <Data>
 -Enhanced twitter archive
 -Additional data via the twitter API (retweet count, favorite count)

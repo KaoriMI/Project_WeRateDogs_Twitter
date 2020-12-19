@@ -1,3 +1,15 @@
+****
+# twitter authentication 
+import tweepy
+
+consumer_key = 'TT2D0E2aIX0VEMNDs1ZdRll7W'
+consumer_secret = '7Qv623gWuw4H8gvIWtHJ4ZB8gw6kz6cRdllGP8bzYIAKxYTDHU'
+access_token = '1322275579496927233-6yA5Xz158culvlLTkTJND36bdSIsJR'
+access_secret = 'fHqvXqAhZVMGovtvXF6AoSK2tuoDul5bIrNCoYDADjrkJ'
+******
+
+
+
 # Code : 2
 dog_stage = ['doggo','floofer', 'pupper', 'puppo']
 
