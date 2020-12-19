@@ -1,4 +1,17 @@
+# Code : 2
+dog_stage = ['doggo','floofer', 'pupper', 'puppo']
 
+for stage in dog_stage:
+    df_clean[stage] = df_clean[stage].str.contains(stage).astype(int)
+    
+    
+# test : 2 
+for stage in dog_stage:
+    print((df_clean[stage] == (df_tw[(pd.isnull(df_tw['in_reply_to_status_id'])) & (pd.isnull(df_tw['retweeted_status_id']))].reset_index(drop=True)[stage] == stage)).unique())
+    
+    
+    
+    
 <Data>
 -Enhanced twitter archive
 -Additional data via the twitter API (retweet count, favorite count)
