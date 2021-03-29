@@ -8,7 +8,7 @@ In this project, I focus on wrangling data to create interesting and trustworthy
 ## Dataset
 
 * <b>twitter-archive-enhaced.csv</b></br>
-This is the WeRateDogs Twitter archive data which contains basic tweet data for all 5000+ of thier tweets until 1 August 2017.<br>
+This is the WeRateDogs Twitter archive data which contains basic tweet data for all 5000+ of thier tweets until 1 August 2017.
 This is provided by WeRateDog.
 
 * <b>twitter_archive_master.csv</b></br>
@@ -18,7 +18,7 @@ I stored the clean DataFrames after cleaning twitter-archive-enhaced.csv.
 I gathered this additional data such as each tweet's retweet count and favorite count via Twitter API.
 
 * <b>image_prediction.tsv</b></br>
-The tweet image predictions, i.e., what breed of dog (or other object, animal, etc.) is present in each tweet according to a neural network.</br>
+The tweet image predictions, i.e., what breed of dog (or other object, animal, etc.) is present in each tweet according to a neural network.
 This is provided by Udacity.
 
 ## Reports
